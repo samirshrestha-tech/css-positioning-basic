@@ -1,0 +1,36 @@
+/* Position: static, initial,inherit, absolute, relative,fixed, sticky */
+
+/* relative  */
+.parent {
+  background: grey;
+  min-height: 40vh;
+  padding: 1rem;
+  font-size: 2rem;
+  position: relative;
+}
+.c1 {
+  background: red;
+  position: sticky;
+  top: 0;
+}
+.c2 {
+  background: blue;
+  /* position: relative; */
+  /* with relative always have to relate to previous place  */
+  /* left: 50px; */
+  /* adds 50px to the left side pushing it to the right */
+  /* bottom: 20px; */
+}
+.c3 {
+  background: green;
+  /* position: relative; */
+  /* position: absolute; */
+  /* postion absolute makes the element inline   */
+  /* left: 50px; */
+
+  /* left: 75px; */
+}
+.parent div {
+  min-height: 150px;
+  /* min height means it cant go less than that height */
+}
